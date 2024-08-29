@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuizGPT</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .celebration-animation {
+      animation: shake 0.5s infinite;
+    }
+  </style>
+</head>
+<body>
+ <!-- Avatar and Username Selection View -->
+ <div id="avatarUsernameView" class="hidden">
+    <div id="lobby">
+      <h1>Välkommen till QuizGPT</h1>
+      <div>
+        <h3>Välj din karaktär</h3>
+        <div class="avatar-selection">
+          <img src="/avatars/avatar1.png" alt="Avatar 1" onclick="selectAvatar(1)">
+          <img src="/avatars/avatar2.png" alt="Avatar 2" onclick="selectAvatar(2)">
+          <img src="/avatars/avatar3.png" alt="Avatar 3" onclick="selectAvatar(3)">
+          <img src="/avatars/avatar4.png" alt="Avatar 4" onclick="selectAvatar(4)">
+          <img src="/avatars/avatar5.png" alt="Avatar 5" onclick="selectAvatar(5)">
+        </div>
+        <input type="text" id="usernameInput" placeholder="Skriv ditt användarnamn">
+        <button onclick="joinLobby()">Gå med</button>
+        <div id="avatarSelectedMessage" style="display: none; color: red;">Vänligen välj både karaktär och användarnamn för att gå med i spelet.</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="game" style="display: none;">
+    <div class="game-container">
+        <div class="user-list-column">
+            <h2>Spelare</h2>
+            <ul id="userList"></ul>
+        </div>
+        <div id="chatAndMessageContainer">
+          <div id="chatAndInputWrapper">
+            <div id="chatContainer" style="display: flex; flex-direction: column-reverse; overflow: auto; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 10px; padding: 20px; background: #f9f9f9; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+              <div id="chat"></div>
+              <div id="score"></div>
+            </div>
+            <div id="messageInputContainer">
+              <input type="text" id="messageInput" placeholder="Svara här...">
+              <button id="sendButton">Skicka</button>
+              <div id="timerPlaceholder" class="timer-placeholder"></div>
+              <span id="timerDisplay" class="timer-display"></span>
+            </div>
+          </div>
+          <div id="readyContainer" style="display: none;">
+            <button id="readyButton" onclick="markReady()">Jag är redo!</button>
+          </div>
+        </div>
+
+        <div id="questionContainer">
+            <button onclick="sendMessageOrAnswer()" id="messageButton" disabled>Skicka</button>
+        </div>
+    </div>
+  </div>
+
+  <div id="winner">
+    <img class="winner-avatar celebration-animation">
+    <div class="winner-info">
+      <h2></h2>
+      <p class="winner-text">är vinnaren!</p>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.10.2/Sortable.min.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>

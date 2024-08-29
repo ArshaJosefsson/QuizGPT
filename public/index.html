@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frågesport av ChatGPT</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .celebration-animation {
+      animation: shake 0.5s infinite;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Game Creation View -->
+  <div id="gameCreationView">
+    <div class="game-box">
+      <div>
+        <button id="createGame">Create Game</button>
+      </div>
+      <div id="player-count-buttons">
+        <!-- Dynamically generate buttons from 1-10 here using JavaScript -->
+      </div>
+      <label for="game-name">Name</label>
+      <input type="text" name="game-name" id="game-name" maxlength="15">
+      <div class="toggle-container">
+        <label>Public</label>
+        <label class="switch">
+          <input type="checkbox" id="game-privacy-toggle">
+          <span class="slider round"></span>
+        </label>
+        <label>Private</label>
+      </div>
+      <div id="password-wrapper" class="hide" style="text-align: center; padding-top: 0.5rem">
+        <div>
+          <label for="password">Password</label>
+        </div>
+        <input type="text" name="password" id="game-password" placeholder="Password" maxlength="10">
+      </div>
+      <div style="text-align: center; padding-top: 0.5rem">
+        <label>Amount of players</label>
+        <div id="amountOfPlayers">
+
+        </div>
+      </div>
+      <div id="gameIdDisplay"></div>
+    </div>
+    <div id="joinGameWrapper" class="hide" style="text-align: center;">
+      <label>Join existing games</label>
+      <div id="joinGame">
+      </div>
+    </div>
+    <input type="hidden" id="gameId">
+  </div>
+
+  <!-- Avatar and Username Selection View -->
+  <div id="avatarUsernameView" class="hide">
+    <div id="lobby">
+      <h1>Welcome</h1>
+      <div>
+        <h3>Choose your character</h3>
+        <div class="avatar-selection">
+          <img src="/avatars/avatar1.png" alt="Avatar 1" onclick="selectAvatar(1)">
+          <img src="/avatars/avatar2.png" alt="Avatar 2" onclick="selectAvatar(2)">
+          <img src="/avatars/avatar3.png" alt="Avatar 3" onclick="selectAvatar(3)">
+          <img src="/avatars/avatar4.png" alt="Avatar 4" onclick="selectAvatar(4)">
+          <img src="/avatars/avatar5.png" alt="Avatar 5" onclick="selectAvatar(5)">
+        </div>
+        <input class="hide" id="avatarInput">
+        <input type="text" id="usernameInput" placeholder="Username">
+        <button id="joinLobbyButton">Join</button>
+        <div id="avatarSelectedMessage" style="display: none; color: red;">Please select a character and a username</div>
+      </div>
+    </div>
+   </div>
+  <div></div>
+  <div id="game" class="hide">
+    <div id="gameIdDisplay"></div>
+    <div class="game-container">
+      <div class="user-list-column">
+        <h2>Player</h2>
+        <ul id="userList"></ul>
+      </div>
+      <div id="chatAndMessageContainer">
+        <div id="chatAndInputWrapper">
+          <div id="chatContainer"
+            style="display: flex; flex-direction: column-reverse; overflow: auto; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 10px; padding: 20px; background: #f9f9f9; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <div id="chat"></div>
+            <div id="score"></div>
+          </div>
+          <div id="messageInputContainer">
+            <input type="text" id="messageInput" placeholder="Svara här...">
+            <button id="sendButton">Send</button>
+            <div id="timerPlaceholder" class="timer-placeholder"></div>
+            <span id="timerDisplay" class="timer-display"></span>
+          </div>
+        </div>
+        <div id="readyContainer" style="display: none;">
+          <button id="readyButton" onclick="markReady()">I'm Ready!</button>
+        </div>
+      </div>
+
+      <div id="questionContainer">
+        <button onclick="sendMessageOrAnswer()" id="messageButton" disabled>Send</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="winner">
+    <img class="winner-avatar celebration-animation">
+    <div class="winner-info">
+      <h2></h2>
+      <p class="winner-text">Is a winner</p>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="socket.io.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.10.2/Sortable.min.js"></script>
+  <script src="client.js" defer></script>
+</body>
+
+</html>

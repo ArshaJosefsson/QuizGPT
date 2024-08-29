@@ -1,0 +1,308 @@
+[
+  {
+    "category": "Historia",
+    "question": "Vem var USA:s första president?",
+    "answer": ["Washington", "George Washington"]
+  },
+  {
+    "category": "Vetenskap",
+    "question": "Vad är symbolen för syre i det periodiska systemet?",
+    "answer": ["O"]
+  },
+  {
+    "category": "Mat och dryck",
+    "question": "Vad är huvudingrediensen i sushi?",
+    "answer": ["Ris"]
+  },
+  {
+    "category": "Då och nu",
+    "question": "Vilket år uppfanns internet?",
+    "answer": ["1969"]
+  },
+  {
+    "category": "Film",
+    "question": "Vilken film vann Oscar för Bästa film 2022?",
+    "answer": ["Dune"]
+  },
+  {
+    "category": "Musik",
+    "question": "Vem var känd som 'The King'?",
+    "answer": ["Elvis", "Elvis Presley"]
+  },
+  {
+    "category": "Världen runt",
+    "question": "Vilket land har Eiffeltornet?",
+    "answer": ["Frankrike"]
+  },
+  {
+    "category": "Sport",
+    "question": "Vilken sport har puck och klubba?",
+    "answer": ["Ishockey"]
+  },
+  {
+    "category": "Kultur",
+    "question": "Vem skrev 'Harry Potter'?",
+    "answer": ["Rowling", "J.K. Rowling"]
+  },
+  {
+    "category": "Historia",
+    "question": "Vem var Julius Caesars adoptivson och efterträdare?",
+    "answer": ["Augustus"]
+  },
+  {
+    "category": "Vetenskap",
+    "question": "Vad är hastigheten för ljus i vakuum?",
+    "answer": ["299,792 km/s"]
+  },
+  {
+    "category": "Mat och dryck",
+    "question": "Vad är huvudingrediensen i tacos?",
+    "answer": ["Kött"]
+  },
+  {
+    "category": "Då och nu",
+    "question": "Vilket år landade människor på månen?",
+    "answer": ["1969"]
+  },
+  {
+    "category": "Film",
+    "question": "Vilken skådespelare spelade 'The Joker' i 'The Dark Knight'?",
+    "answer": ["Heath Ledger", "Heath"]
+  },
+  {
+    "category": "Musik",
+    "question": "Vem är känd som 'Queen of Pop'?",
+    "answer": ["Madonna"]
+  },
+  {
+    "category": "Världen runt",
+    "question": "Vilket land har pyramiderna i Giza?",
+    "answer": ["Egypten"]
+  },
+  {
+    "category": "Sport",
+    "question": "Vilken sport spelas i Wimbledon?",
+    "answer": ["Tennis"]
+  },
+  {
+    "category": "Kultur",
+    "question": "Vem målade Mona Lisa?",
+    "answer": ["da Vinci", "Leonardo da Vinci"]
+  },
+  {
+    "category": "Historia",
+    "question": "Vem var den första kvinnliga piloten att flyga ensam över Atlanten?",
+    "answer": ["Earhart", "Amelia Earhart"]
+  },
+  {
+    "category": "Vetenskap",
+    "question": "Vad är kemiskt tecken för kvicksilver?",
+    "answer": ["Hg"]
+  },
+  {
+    "category": "Mat och dryck",
+    "question": "Vad är huvudingrediensen i pizza?",
+    "answer": ["Deg"]
+  },
+    {
+      "category": "Geografi",
+      "question": "Vilket land har världens största yta?",
+      "answer": ["Ryssland"]
+    },
+    {
+      "category": "Teknik",
+      "question": "Vad heter grundaren av Tesla?",
+      "answer": ["Elon Musk"]
+    },
+    {
+      "category": "Mat och dryck",
+      "question": "Vad är huvudingrediensen i sushirulle?",
+      "answer": ["Fisk"]
+    },
+    {
+      "category": "Historia",
+      "question": "Vilket år upptäckte Columbus Amerika?",
+      "answer": ["1492"]
+    },
+    {
+      "category": "Film",
+      "question": "Vilken skådespelare spelade Jack i filmen 'Titanic'?",
+      "answer": ["Leonardo DiCaprio", "DiCaprio"]
+    },
+    {
+      "category": "Musik",
+      "question": "Vem är känd som 'The Queen of Soul'?",
+      "answer": ["Aretha Franklin"]
+    },
+    {
+      "category": "Världen runt",
+      "question": "Vilket land har världens längsta flod, Nilen?",
+      "answer": ["Egypten"]
+    },
+    {
+      "category": "Sport",
+      "question": "Vilket land är hem till fotbollslaget FC Barcelona?",
+      "answer": ["Spanien"]
+    },
+    {
+      "category": "Kultur",
+      "question": "Vem skrev 'Romeo och Julia'?",
+      "answer": ["Shakespeare", "William Shakespeare"]
+    },
+    {
+      "category": "Historia",
+      "question": "Vem var den första kvinnliga nobelpristagaren i fysik?",
+      "answer": ["Curie", "Marie Curie"]
+    },
+    {
+      "category": "Vetenskap",
+      "question": "Vad är kemiskt tecken för silver?",
+      "answer": ["Ag"]
+    },
+    {
+      "category": "Mat och dryck",
+      "question": "Vad är huvudingrediensen i sushi maki?",
+      "answer": ["Fisk"]
+    },
+    {
+      "category": "Då och nu",
+      "question": "Vilket år föll Berlinmuren?",
+      "answer": ["1989"]
+    },
+    {
+      "category": "Film",
+      "question": "Vem regisserade filmen 'Pulp Fiction'?",
+      "answer": ["Quentin Tarantino", "Tarantino"]
+    },
+    {
+      "category": "Musik",
+      "question": "Vem är känd som 'The Boss'?",
+      "answer": ["Bruce Springsteen", "Springsteen"]
+    },
+    {
+      "category": "Världen runt",
+      "question": "Vilket land har världens äldsta pyramid, Djoser-pyramiden?",
+      "answer": ["Egypten"]
+    },
+    {
+      "category": "Sport",
+      "question": "Vilket land är känd för att ha uppfunnit sporten rugby?",
+      "answer": ["England"]
+    },
+    {
+      "category": "Kultur",
+      "question": "Vem skrev 'Stolthet och fördom'?",
+      "answer": ["Austen", "Jane Austen"]
+    },
+    {
+      "category": "Historia",
+      "question": "Vilken person uppfann den första ångmaskinen?",
+      "answer": ["Watt", "James Watt"]
+    },
+    {
+      "category": "Vetenskap",
+      "question": "Vad är kemiskt tecken för guld?",
+      "answer": ["Au"]
+    },
+      {
+        "category": "Teknik",
+        "question": "Vilket företag grundade Bill Gates?",
+        "answer": ["Microsoft"]
+      },
+      {
+        "category": "Geografi",
+        "question": "Vilket land har flest invånare i världen?",
+        "answer": ["Kina"]
+      },
+      {
+        "category": "Mat och dryck",
+        "question": "Vad är huvudingrediensen i guacamole?",
+        "answer": ["Avokado"]
+      },
+      {
+        "category": "Historia",
+        "question": "Vilket år började första världskriget?",
+        "answer": ["1914"]
+      },
+      {
+        "category": "Film",
+        "question": "Vem spelade huvudrollen som 'Forrest Gump' i filmen med samma namn?",
+        "answer": ["Hanks", "Tom Hanks"]
+      },
+      {
+        "category": "Musik",
+        "question": "Vem var känd som 'The King of Pop'?",
+        "answer": ["Jackson", "Michael Jackson"]
+      },
+      {
+        "category": "Världen runt",
+        "question": "Vilket land är känt som 'Landet av de stigande solens land'?",
+        "answer": ["Japan"]
+      },
+      {
+        "category": "Sport",
+        "question": "Vilket land arrangerade de olympiska sommarspelen 2016?",
+        "answer": ["Brasilien"]
+      },
+      {
+        "category": "Kultur",
+        "question": "Vem skrev romanen 'Moby-Dick'?",
+        "answer": ["Melville", "Herman Melville"]
+      },
+      {
+        "category": "Historia",
+        "question": "Vem var den första kvinnan som flög över Atlanten solo?",
+        "answer": ["Earhart", "Amelia Earhart"]
+      },
+      {
+        "category": "Vetenskap",
+        "question": "Vad är kemiskt tecken för syre?",
+        "answer": ["O"]
+      },
+      {
+        "category": "Mat och dryck",
+        "question": "Vad är huvudingrediensen i coq au vin?",
+        "answer": ["Kyckling"]
+      },
+      {
+        "category": "Då och nu",
+        "question": "Vilket år invigdes Eiffeltornet?",
+        "answer": ["1889"]
+      },
+      {
+        "category": "Film",
+        "question": "Vem regisserade filmen 'Inception'?",
+        "answer": ["Nolan", "Christopher Nolan"]
+      },
+      {
+        "category": "Musik",
+        "question": "Vem var medlem av bandet 'The Rolling Stones' och dog 1969?",
+        "answer": ["Jones", "Brian Jones"]
+      },
+      {
+        "category": "Världen runt",
+        "question": "Vilket land har världens största regnskog?",
+        "answer": ["Brasilien"]
+      },
+      {
+        "category": "Sport",
+        "question": "Vilket land vann fotbolls-VM 2018?",
+        "answer": ["Frankrike"]
+      },
+      {
+        "category": "Kultur",
+        "question": "Vem skrev den klassiska romanen 'Stolthet och fördom'?",
+        "answer": ["Austen", "Jane Austen"]
+      },
+      {
+        "category": "Historia",
+        "question": "Vem var den första människan att gå på månen?",
+        "answer": ["Armstrong", "Neil Armstrong"]
+      },
+      {
+        "category": "Vetenskap",
+        "question": "Vad är kemiskt tecken för kväve?",
+        "answer": ["N"]
+      }
+    
+]
