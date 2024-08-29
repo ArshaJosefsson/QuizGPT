@@ -1,4 +1,5 @@
 **Swedish Multiplayer Quiz Game**
+
 This project is a multiplayer quiz game entirely in Swedish. The game is hosted on a Node.js server, leveraging Express.js and Socket.IO to create a real-time, interactive experience for players on the same local network.
 
 Players can join the same game and compete against each other by answering quiz questions.
@@ -10,6 +11,7 @@ First player to reach 20 points wins.
 ---------------
 
 **How To Run**
+
 Clone the repository to your local machine.
 Ensure you have Node.js installed.
 Run "npm install" to install the required dependencies.
@@ -24,6 +26,7 @@ Look for the section under "Ethernet adapter" and find the IPv4 Address.
 ---------------
 
 **Next Steps**
+
 To take this game to the next level, consider the following improvements.
 
 Introduce a database to handle game sessions, player accounts, and results. This will allow for persistent data storage and retrieval, enhancing the game experience.
