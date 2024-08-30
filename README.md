@@ -29,7 +29,11 @@ Look for the section under "Ethernet adapter" and find the IPv4 Address.
 
 To take this game to the next level, consider the following improvements.
 
-Introduce a database to handle game sessions, player accounts, and results. This will allow for persistent data storage and retrieval, enhancing the game experience.
+Introduce a database to handle game sessions, player accounts, and results.
 Implement leaderboards where players can view the top performers in various categories.
-Allow users to create accounts and track their progress over time. This will enable a more personalized and competitive experience.
-These enhancements will make the game more robust and enjoyable, offering players a reason to return and compete for the top spot on the leaderboards.
+Allow users to create accounts and track their progress over time.
+Expand the game with different categories, gamemodes and achievements.
+Create a temporary gamechat for each game.
+
+Two known issues exist where players can currently answer correctly multiple times in a row on the same question.
+When a game is full, spectators cannot view other players' inputs, which should be resolved for a better user experience.
