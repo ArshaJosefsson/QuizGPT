@@ -1,6 +1,6 @@
 **Swedish Multiplayer Quiz Game**
 
-This project is a multiplayer quiz game entirely in Swedish. The game is hosted on a Node.js server, leveraging Express.js and Socket.IO to create a real-time, interactive experience for players on the same local network.
+This project is a browser-based multiplayer quiz game in Swedish. The game is hosted on a Node.js server, leveraging Express.js and Socket.IO to create a real-time, interactive experience for players on the same local network.
 
 Players can join the same game and compete against each other by answering quiz questions.
 Currently the game and all its content is in Swedish.
